@@ -1,0 +1,13 @@
+C:\Users\Vlad I\source\repos\Vladlab1\bin\Debug\netcoreapp3.1\Vladlab1.exe
+C:\Users\Vlad I\source\repos\Vladlab1\bin\Debug\netcoreapp3.1\Vladlab1.deps.json
+C:\Users\Vlad I\source\repos\Vladlab1\bin\Debug\netcoreapp3.1\Vladlab1.runtimeconfig.json
+C:\Users\Vlad I\source\repos\Vladlab1\bin\Debug\netcoreapp3.1\Vladlab1.runtimeconfig.dev.json
+C:\Users\Vlad I\source\repos\Vladlab1\bin\Debug\netcoreapp3.1\Vladlab1.dll
+C:\Users\Vlad I\source\repos\Vladlab1\bin\Debug\netcoreapp3.1\Vladlab1.pdb
+C:\Users\Vlad I\source\repos\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.csprojAssemblyReference.cache
+C:\Users\Vlad I\source\repos\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.AssemblyInfoInputs.cache
+C:\Users\Vlad I\source\repos\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.AssemblyInfo.cs
+C:\Users\Vlad I\source\repos\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.csproj.CoreCompileInputs.cache
+C:\Users\Vlad I\source\repos\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.dll
+C:\Users\Vlad I\source\repos\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.pdb
+C:\Users\Vlad I\source\repos\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.genruntimeconfig.cache
