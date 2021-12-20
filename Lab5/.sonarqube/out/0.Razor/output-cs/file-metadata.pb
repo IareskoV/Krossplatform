@@ -1,0 +1,12 @@
+^
+SE:\Labs\CrossPlatform\Lab5\Lab5\obj\Debug\net5.0\Razor\Views\Auth\Login.cshtml.g.csutf-8a
+VE:\Labs\CrossPlatform\Lab5\Lab5\obj\Debug\net5.0\Razor\Views\Auth\Register.cshtml.g.csutf-8^
+SE:\Labs\CrossPlatform\Lab5\Lab5\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.csutf-8\
+QE:\Labs\CrossPlatform\Lab5\Lab5\obj\Debug\net5.0\Razor\Views\Home\Lab.cshtml.g.csutf-8a
+VE:\Labs\CrossPlatform\Lab5\Lab5\obj\Debug\net5.0\Razor\Views\Home\UserPage.cshtml.g.csutf-8`
+UE:\Labs\CrossPlatform\Lab5\Lab5\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.csutf-8b
+WE:\Labs\CrossPlatform\Lab5\Lab5\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.csutf-8t
+iE:\Labs\CrossPlatform\Lab5\Lab5\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.csutf-8`
+UE:\Labs\CrossPlatform\Lab5\Lab5\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.csutf-8^
+SE:\Labs\CrossPlatform\Lab5\Lab5\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.csutf-8[
+PE:\Labs\CrossPlatform\Lab5\Lab5\obj\Debug\net5.0\Lab5.RazorTargetAssemblyInfo.csutf-8

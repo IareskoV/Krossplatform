@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model RegisterViewModel
+<div class="text-center">
+    <h1 class="display-4">Register</h1>
+    <form asp-controller="Auth" asp-action="Register" method="post">
+        <input type="hidden" asp-for="ReturnUrl" />
+        <p>
+            <label>Login:</label><br />
+            <input type="text" maxlength="50" asp-for="UserName" />
+            <span asp-validation-for="UserName"></span>
+        </p>
+        <p>
+            <label>Full Name:</label><br />
+            <input type="text" maxlength="500" asp-for="FullName" />
+            <span asp-validation-for="FullName"></span>
+        </p>
+        <p>
+            <label>Email:</label><br />
+            <input type="email" asp-for="Email" />
+            <span asp-validation-for="Email"></span>
+        </p>
+        <p>
+            <label>Phone Number:</label><br />
+            <input type="tel" asp-for="PhoneNumber" />
+            <span asp-validation-for="PhoneNumber"></span>
+        </p>
+        <p>
+            <label>Password:</label><br />
+            <input type="password" asp-for="Password">
+            <span asp-validation-for="Password"></span>
+        </p>
+        <p>
+            <label>Confirm Password:</label><br />
+            <input type="password" asp-for="ConfirmPassword">
+            <span asp-validation-for="ConfirmPassword"></span>
+        </p>
+        <p>
+            <button type="submit">Register</button>
+        </p>
+    </form>
+</div>
+
