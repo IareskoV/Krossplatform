@@ -15,6 +15,9 @@ namespace LAB3
             List<int> arr = new List<int>();
 
 
+
+
+
             foreach (string element in tempS)
             {
 
