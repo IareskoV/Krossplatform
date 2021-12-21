@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vlad I\\source\\repos\\Vladlab1\\Vladlab1.csproj": {}
+    "D:\\kross\\Vladlab1\\Vladlab1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vlad I\\source\\repos\\Vladlab1\\Vladlab1.csproj": {
+    "D:\\kross\\Vladlab1\\Vladlab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vlad I\\source\\repos\\Vladlab1\\Vladlab1.csproj",
+        "projectUniqueName": "D:\\kross\\Vladlab1\\Vladlab1.csproj",
         "projectName": "Vladlab1",
-        "projectPath": "C:\\Users\\Vlad I\\source\\repos\\Vladlab1\\Vladlab1.csproj",
+        "projectPath": "D:\\kross\\Vladlab1\\Vladlab1.csproj",
         "packagesPath": "C:\\Users\\Vlad I\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vlad I\\source\\repos\\Vladlab1\\obj\\",
+        "outputPath": "D:\\kross\\Vladlab1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

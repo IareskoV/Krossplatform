@@ -11,3 +11,16 @@ C:\Users\Vlad I\source\repos\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.csproj.Co
 C:\Users\Vlad I\source\repos\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.dll
 C:\Users\Vlad I\source\repos\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.pdb
 C:\Users\Vlad I\source\repos\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.genruntimeconfig.cache
+D:\kross\Vladlab1\bin\Debug\netcoreapp3.1\Vladlab1.exe
+D:\kross\Vladlab1\bin\Debug\netcoreapp3.1\Vladlab1.deps.json
+D:\kross\Vladlab1\bin\Debug\netcoreapp3.1\Vladlab1.runtimeconfig.json
+D:\kross\Vladlab1\bin\Debug\netcoreapp3.1\Vladlab1.runtimeconfig.dev.json
+D:\kross\Vladlab1\bin\Debug\netcoreapp3.1\Vladlab1.dll
+D:\kross\Vladlab1\bin\Debug\netcoreapp3.1\Vladlab1.pdb
+D:\kross\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.csprojAssemblyReference.cache
+D:\kross\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.AssemblyInfoInputs.cache
+D:\kross\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.AssemblyInfo.cs
+D:\kross\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.csproj.CoreCompileInputs.cache
+D:\kross\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.dll
+D:\kross\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.pdb
+D:\kross\Vladlab1\obj\Debug\netcoreapp3.1\Vladlab1.genruntimeconfig.cache
