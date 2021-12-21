@@ -11,3 +11,16 @@ C:\Users\Vlad I\source\repos\lab2\obj\Debug\netcoreapp3.1\lab2.dll
 C:\Users\Vlad I\source\repos\lab2\obj\Debug\netcoreapp3.1\lab2.pdb
 C:\Users\Vlad I\source\repos\lab2\obj\Debug\netcoreapp3.1\lab2.genruntimeconfig.cache
 C:\Users\Vlad I\source\repos\lab2\obj\Debug\netcoreapp3.1\lab2.csprojAssemblyReference.cache
+D:\kross\lab2\bin\Debug\netcoreapp3.1\lab2.exe
+D:\kross\lab2\bin\Debug\netcoreapp3.1\lab2.deps.json
+D:\kross\lab2\bin\Debug\netcoreapp3.1\lab2.runtimeconfig.json
+D:\kross\lab2\bin\Debug\netcoreapp3.1\lab2.runtimeconfig.dev.json
+D:\kross\lab2\bin\Debug\netcoreapp3.1\lab2.dll
+D:\kross\lab2\bin\Debug\netcoreapp3.1\lab2.pdb
+D:\kross\lab2\obj\Debug\netcoreapp3.1\lab2.csprojAssemblyReference.cache
+D:\kross\lab2\obj\Debug\netcoreapp3.1\lab2.AssemblyInfoInputs.cache
+D:\kross\lab2\obj\Debug\netcoreapp3.1\lab2.AssemblyInfo.cs
+D:\kross\lab2\obj\Debug\netcoreapp3.1\lab2.csproj.CoreCompileInputs.cache
+D:\kross\lab2\obj\Debug\netcoreapp3.1\lab2.dll
+D:\kross\lab2\obj\Debug\netcoreapp3.1\lab2.pdb
+D:\kross\lab2\obj\Debug\netcoreapp3.1\lab2.genruntimeconfig.cache
