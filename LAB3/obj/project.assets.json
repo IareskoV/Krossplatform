@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vlad I\\Source\\Repos\\Krossplatform\\LAB3\\LAB3.csproj",
+      "projectUniqueName": "D:\\kross\\LAB3\\LAB3.csproj",
       "projectName": "LAB3",
-      "projectPath": "C:\\Users\\Vlad I\\Source\\Repos\\Krossplatform\\LAB3\\LAB3.csproj",
+      "projectPath": "D:\\kross\\LAB3\\LAB3.csproj",
       "packagesPath": "C:\\Users\\Vlad I\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vlad I\\Source\\Repos\\Krossplatform\\LAB3\\obj\\",
+      "outputPath": "D:\\kross\\LAB3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

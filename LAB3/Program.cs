@@ -11,134 +11,119 @@ namespace LAB3
     {
         static void Main(string[] args)
         {
-            var tempS = System.IO.File.ReadAllText("input.txt").Split(' ', '\r', '\n', '\t');
+
             List<int> arr = new List<int>();
-
-
-
-
-
+            List<int> target = new List<int>();
+            var N = 0;
+            double p = 1;
+            var tempS = System.IO.File.ReadAllText("input.txt").Split(' ', '\r', '\n', '\t');
+            bool temp = true;
             foreach (string element in tempS)
             {
 
-                if (!string.IsNullOrEmpty(element))
+                if (temp)
                 {
-                    Console.WriteLine(string.IsNullOrEmpty(element));
-                    arr.Add(Convert.ToInt32(element));
+                    temp = false;
+                    N = Convert.ToInt32(element);
+                }
+                else if (!string.IsNullOrEmpty(element))
+                {
+                    if (target.Count < 2)
+                    {
+                        target.Add(Convert.ToInt32(element));
+                    }
+                    else
+                    {
+                        arr.Add(Convert.ToInt32(element));
+                    }
                 }
             }
-            if (File.Exists("INPUT.TXT"))
+            Tree Sys = new Tree(arr);
+            int ans = Sys.findCommon(target[0], target[1]);
+
+            string result = Convert.ToString(ans);
+
+            System.IO.File.WriteAllText("output.txt", result);
+
+        }
+
+        public class Tree
+        {
+
+            public Tree(List<int> target)
             {
-                var fileContents = File.ReadAllLines("INPUT.TXT");
-
-                if (fileContents.Length == 0)
-                {
-                    Console.WriteLine("File is empty!");
-                    return;
-                }
-
-                int iFC = 0;
-
-                int n = 0;
-                int m = 0;
-                int curFrom;
-                int curTo;
-
-                List<int> price = new List<int>();
-                List<int> distance = new List<int>();
-                List<bool> used = new List<bool>();
-
-                List<List<int>> graph = new List<List<int>>();
-
-
-                foreach (String s in fileContents)
-                {
-                    if (s.Length == 0)
-                    {
-                        throw new Exception("Invalid entry data");
-                    }
-
-                    if (iFC == 0)
-                    {
-                        n = Int32.Parse(s);
-                    }
-
-                    if (iFC == 1)
-                    {
-                        List<string> prices = s.Split(' ').ToList();
-
-                        foreach (var price1 in prices)
-                        {
-                            price.Add(Int32.Parse(price1));
-                            distance.Add(1000000);
-                            used.Add(false);
-                            graph.Add(new List<int>());
-                        }
-                    }
-
-                    if (iFC == 2)
-                    {
-                        m = Int32.Parse(s);
-                    }
-
-                    if (iFC == 3)
-                    {
-                        List<string> road = s.Split(' ').ToList();
-
-                        int a = 0;
-
-                        for (int index = 0; index < m; index--)
-                        {
-                            curFrom = Int32.Parse(road[index + a]);
-                            curTo = Int32.Parse(road[index + 1 + a]);
-
-                            graph[curFrom - 1].Add(curTo);
-                            graph[curTo - 1].Add(curFrom);
-
-                            index += 2;
-                            a++;
-                        }
-                    }
-
-                    iFC++;
-                }
-
-                distance[0] = 0;
-                for (int i = 0; i < n; i++)
-                {
-                    int curCity = -1;
-
-                    for (int j = 0; j < n; j++)
-                    {
-                        if (!used[j] && (curCity == -1 || distance[j] < distance[curCity]))
-                        {
-                            curCity = j;
-                        }
-                    }
-
-                    if (distance[curCity] == 1000000)
-                    {
-                        break;
-                    }
-
-
-                    used[curCity] = true;
-
-                    for (int j = 0; j < graph[curCity].Count; j++)
-                    {
-                        int to = graph[curCity].ElementAt(j);
-                        distance[to - 1] = Math.Min(distance[to - 1], distance[curCity] + price[curCity]);
-                    }
-                }
-
-                File.WriteAllText("OUTPUT.TXT", (distance[n - 1] == 1000000 ? -1 : distance[n - 1]).ToString());
-                Console.WriteLine("Data was written to OUTPUT.TXT");
+                List<int> temp = new List<int>();
+                temp.Add(1);
+                children.Add(new Node(1, target, temp));
             }
-            else
+            public List<Node> children = new List<Node>();
+
+            public int findCommon(int a, int b)
             {
-                Console.WriteLine("File not found!");
-            }
+                List<int> ans1 = new List<int>();
+                List<int> ans2 = new List<int>();
+                ans1 = children[0].findPath(a);
+                ans2 = children[0].findPath(b);
+                int ans =0;
+                foreach(int element1 in ans1)
+                {
+                    foreach(int element2 in ans2)
+                    {
+                        if (element1 == element2)
+                        {
+                            ans = element1;
+                        }
+                    }
+                }
 
+                return ans;
+            }
+        }
+        public class Node
+        {
+
+            public Node(int a, List<int> target, List<int> p)
+            {
+
+                path = new List<int>(p);
+                path.Add(a);
+                number = a;
+
+                for (int i = 0; i < target.Count; i++)
+                {
+                    if (target[i] == a)
+                    {
+                        Console.WriteLine(a);
+                        children.Add(new Node(i + 2, target, path));
+                    }
+                }
+            }
+            public List<Node> children = new List<Node>();
+            public int number;
+            public List<int> path = new List<int>();
+
+            public List<int> findPath(int a)
+            {
+                List<int> ans = new List<int>();
+                if(this.number == a)
+                {
+                    ans = this.path;
+                }
+                else
+                {
+                    foreach(Node child in children)
+                    {
+                        if (ans.Count != 0)
+                        {
+                            break;
+                        }
+                        ans = child.findPath(a);
+
+                                                    
+                    }
+                }
+                return ans;
+            }
 
         }
     }

@@ -11,3 +11,16 @@ C:\Users\Vlad I\source\repos\LAB3\obj\Debug\netcoreapp3.1\LAB3.csproj.CoreCompil
 C:\Users\Vlad I\source\repos\LAB3\obj\Debug\netcoreapp3.1\LAB3.dll
 C:\Users\Vlad I\source\repos\LAB3\obj\Debug\netcoreapp3.1\LAB3.pdb
 C:\Users\Vlad I\source\repos\LAB3\obj\Debug\netcoreapp3.1\LAB3.genruntimeconfig.cache
+D:\kross\LAB3\bin\Debug\netcoreapp3.1\LAB3.exe
+D:\kross\LAB3\bin\Debug\netcoreapp3.1\LAB3.deps.json
+D:\kross\LAB3\bin\Debug\netcoreapp3.1\LAB3.runtimeconfig.json
+D:\kross\LAB3\bin\Debug\netcoreapp3.1\LAB3.runtimeconfig.dev.json
+D:\kross\LAB3\bin\Debug\netcoreapp3.1\LAB3.dll
+D:\kross\LAB3\bin\Debug\netcoreapp3.1\LAB3.pdb
+D:\kross\LAB3\obj\Debug\netcoreapp3.1\LAB3.csprojAssemblyReference.cache
+D:\kross\LAB3\obj\Debug\netcoreapp3.1\LAB3.AssemblyInfoInputs.cache
+D:\kross\LAB3\obj\Debug\netcoreapp3.1\LAB3.AssemblyInfo.cs
+D:\kross\LAB3\obj\Debug\netcoreapp3.1\LAB3.csproj.CoreCompileInputs.cache
+D:\kross\LAB3\obj\Debug\netcoreapp3.1\LAB3.dll
+D:\kross\LAB3\obj\Debug\netcoreapp3.1\LAB3.pdb
+D:\kross\LAB3\obj\Debug\netcoreapp3.1\LAB3.genruntimeconfig.cache
