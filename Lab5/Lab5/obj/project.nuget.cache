@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nZG7HX6gVp9wRXZwQRzEf3ULzr1eYhG8Jgt0n9j8KBl2D3z7UCopqAkJ02DyKS9qoJFvgbeCrMvlx21u67ON2A==",
+  "dgSpecHash": "QDaqN6SragbI32uqg0gYUpOUHMqRyemm1uWYKNj2hiJ+t4Wt28/DbROgMCLJoWfw25Pyfehj8R30I8NmCZ4JYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vlad I\\Documents\\UNIV\\kross-patform\\Lab5\\Lab5\\Lab5.csproj",
+  "projectFilePath": "D:\\kross\\Lab5\\Lab5\\Lab5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vlad I\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Vlad I\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",

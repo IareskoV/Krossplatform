@@ -15,21 +15,10 @@ namespace Lab5.Labs
         }
         public string Execute(string input)
         {
-            int[,] array = new int[255, 255];
-            for (var i = 1; i < 255; i++)
-            {
-                array[i, i] = 2;
-            }
-            var startx = 0;
-            var starty = 0;
-            array = transform(array, startx, starty);
-
-            Console.Write(array[22, 20]);
-
-            List<int> arr = new List<int>();
+            List<double> arr = new List<double>();
             var N = 0;
+            double p = 1;
             var tempS = input.Split(' ', '\r', '\n', '\t');
-
 
 
             foreach (string element in tempS)
@@ -41,12 +30,18 @@ namespace Lab5.Labs
                 else if (!string.IsNullOrEmpty(element))
                 {
                     Console.WriteLine(string.IsNullOrEmpty(element));
-                    arr.Add(Convert.ToInt32(element));
+                    string temp = element.Replace('.', ',');
+                    arr.Add(Convert.ToDouble(temp));
                 }
             }
 
-            var result = array[Convert.ToInt32(tempS[0]), Convert.ToInt32(tempS[1])];
-            return Convert.ToString(array);
+            for (int z = 0; z < N; z++)
+            {
+                p = p * arr[z] + (1 - p) * (1 - arr[z]);
+            }
+
+            string result = Convert.ToString(p);
+            return Convert.ToString(result);
 
 
 
