@@ -17,33 +17,43 @@ namespace LAB3
             var N = 0;
             double p = 1;
             var tempS = System.IO.File.ReadAllText("input.txt").Split(' ', '\r', '\n', '\t');
-            bool temp = true;
-            foreach (string element in tempS)
-            {
+            if (tempS == null){
 
-                if (temp)
-                {
-                    temp = false;
-                    N = Convert.ToInt32(element);
-                }
-                else if (!string.IsNullOrEmpty(element))
-                {
-                    if (target.Count < 2)
-                    {
-                        target.Add(Convert.ToInt32(element));
-                    }
-                    else
-                    {
-                        arr.Add(Convert.ToInt32(element));
-                    }
-                }
+                System.IO.File.WriteAllText("output.txt", "input is empty");
             }
-            Tree Sys = new Tree(arr);
-            int ans = Sys.findCommon(target[0], target[1]);
+            else
+            {
+                
 
-            string result = Convert.ToString(ans);
+                bool temp = true;
+                foreach (string element in tempS)
+                {
 
-            System.IO.File.WriteAllText("output.txt", result);
+                    if (temp)
+                    {
+                        temp = false;
+                        N = Convert.ToInt32(element);
+                    }
+                    else if (!string.IsNullOrEmpty(element))
+                    {
+                        if (target.Count < 2)
+                        {
+                            target.Add(Convert.ToInt32(element));
+                        }
+                        else
+                        {
+                            arr.Add(Convert.ToInt32(element));
+                        }
+                    }
+                }
+                Tree Sys = new Tree(arr);
+                int ans = Sys.findCommon(target[0], target[1]);
+
+                string result = Convert.ToString(ans);
+
+                System.IO.File.WriteAllText("output.txt", result);
+            }
+            
 
         }
 

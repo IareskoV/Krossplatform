@@ -12,7 +12,6 @@ namespace Vladlab1
             var tempS = System.IO.File.ReadAllText("input.txt").Split(' ', '\r', '\n','\t');
 
 
-
             foreach(string element in tempS)
             {
                 if (!string.IsNullOrEmpty(element))
@@ -21,26 +20,39 @@ namespace Vladlab1
                     arr.Add(Convert.ToInt32(element));
                 }
             }
-            Console.WriteLine(arr);
 
-            var sum = 0;
-            for(int i = 0; i<arr.Count ;i++ )
+            if (arr == null)
             {
-                sum += arr[i];
+                System.IO.File.WriteAllText("output.txt", "input is empty");
+            }
+            else if (arr[1] >100)
+            {
+                System.IO.File.WriteAllText("output.txt", "N is too large");
+            }
+            else
+            {
+                Console.WriteLine(arr);
+
+                var sum = 0;
+                for (int i = 0; i < arr.Count; i++)
+                {
+                    sum += arr[i];
+                }
+
+                sum = sum - solve(arr);
+                string ansv = getMin(arr[0], arr[1]) + " " + getMax(arr[0], arr[1]);
+
+
+
+
+                System.IO.File.WriteAllText("output.txt", ansv);
+
+
+                Console.Write(arr);
+                //var result = solve(n, a);
+                //File.WriteAllText("output.txt", result);
             }
 
-            sum = sum - solve(arr);
-            string ansv = getMin(arr[0], arr[1]) + " " + getMax(arr[0], arr[1]);
-
-
-
-
-            System.IO.File.WriteAllText("output.txt", ansv);
-
-
-            Console.Write(arr);
-            //var result = solve(n, a);
-            //File.WriteAllText("output.txt", result);
         }
 
 
