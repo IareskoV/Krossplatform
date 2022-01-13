@@ -31,26 +31,55 @@ namespace lab2
                 }
             }
 
-            for (int z = 0; z < N; z++)
+            if (N != arr.Count)
             {
-                p = p * arr[z] + (1 - p) * (1 - arr[z]);
+                System.IO.File.WriteAllText("output.txt", "N не равно количесву введеных чисел");
+            }
+            else if (isbigger(arr))
+            {
+                System.IO.File.WriteAllText("output.txt", "одно из чисел больше 1");
+            }
+            else
+            {
+                for (int z = 0; z < N; z++)
+                {
+                    p = p * arr[z] + (1 - p) * (1 - arr[z]);
+                }
+
+                string result = Convert.ToString(p);
+
+
+
+
+
+
+                System.IO.File.WriteAllText("output.txt", result);
+
+
+                Console.Write(arr);
+                //var result = solve(n, a);
+                //File.WriteAllText("output.txt", result);
+            }
+            bool isbigger(List<double> arr)
+            {
+                bool ans = false;
+                foreach (double element in arr)
+                {
+                    if (element > 1)
+                    {
+                        ans = true;
+                    }
+                }
+
+
+                return ans;
             }
 
-            string result = Convert.ToString(p);
-
-
-
-
-
-
-            System.IO.File.WriteAllText("output.txt", result);
-
-
-            Console.Write(arr);
-            //var result = solve(n, a);
-            //File.WriteAllText("output.txt", result);
         }
 
-        
+
+
+
+
     }
 }
