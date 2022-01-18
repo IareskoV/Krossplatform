@@ -1,0 +1,28 @@
+﻿@using Lab6.Entities
+
+@{
+    ViewData["Title"] = "Ref Statuses";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Ref_Status
+
+<div class="text-center">
+    <h1 class="display-4">Ref Statuses</h1>
+    <form asp-controller="Database" asp-action="CreateRefStatus" method="post">
+        StatusCode <input asp-for="Status_Code" value="" /> Status Description <input asp-for="Status_Description" value="" />
+        <button type="submit">Create</button>
+    </form>
+    @foreach (Ref_Status asset in ViewBag.Entities)
+    {
+        <form asp-controller="Database" asp-action="UpdateRefStatus" method="post">
+            @asset.Status_Code <input type="hidden" asp-for="Status_Code" value="@asset.Status_Code" /> <input asp-for="Status_Description" value="@asset.Status_Description" />
+            <button type="submit">Update</button>
+        </form>
+        <form asp-controller="Database" asp-action="DeleteRefStatus" method="post">
+            <input type="hidden" value="@asset.Status_Code" asp-for="Status_Code" />
+            <input type="hidden" value="@asset.Status_Description" asp-for="Status_Description" />
+            <button type="submit">Delete</button>
+        </form>
+    }
+</div>
+

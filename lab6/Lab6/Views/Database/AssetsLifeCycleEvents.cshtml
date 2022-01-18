@@ -1,0 +1,15 @@
+﻿@using Lab6.Entities
+
+@{
+    ViewData["Title"] = "Assets Life Cycle Events";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Assets Life Cycle Events</h1>
+    @foreach (Assets_Life_Cycle_Events asset in ViewBag.Assets)
+    {
+        <div>@asset.Asset_Life_Cycle_Event_ID @asset.Date_From @asset.Date_To</div>
+    }
+</div>
+

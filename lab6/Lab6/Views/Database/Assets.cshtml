@@ -1,0 +1,16 @@
+﻿@using Lab6.Entities
+
+@{
+    ViewData["Title"] = "Assets";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Asset
+
+<div class="text-center">
+    <h1 class="display-4">Assets</h1>
+    @foreach (Asset asset in ViewBag.Assets)
+    {
+        <div>@asset.Asset_ID @asset.Asset_Name @asset.Other_Details</div>
+    }
+</div>
+

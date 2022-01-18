@@ -1,0 +1,17 @@
+C
+:E:\Labs\CrossPlatform\Lab6\IdentityServer\Configuration.csutf-8P
+GE:\Labs\CrossPlatform\Lab6\IdentityServer\Controllers\AuthController.csutf-8P
+GE:\Labs\CrossPlatform\Lab6\IdentityServer\Controllers\HomeController.csutf-8@
+7E:\Labs\CrossPlatform\Lab6\IdentityServer\Db\AppUser.csutf-8M
+DE:\Labs\CrossPlatform\Lab6\IdentityServer\Db\AppUserConfiguration.csutf-8F
+=E:\Labs\CrossPlatform\Lab6\IdentityServer\Db\AuthDbContext.csutf-8F
+=E:\Labs\CrossPlatform\Lab6\IdentityServer\Db\DbInitializer.csutf-8K
+BE:\Labs\CrossPlatform\Lab6\IdentityServer\Models\ErrorViewModel.csutf-8K
+BE:\Labs\CrossPlatform\Lab6\IdentityServer\Models\LoginViewModel.csutf-8N
+EE:\Labs\CrossPlatform\Lab6\IdentityServer\Models\RegisterViewModel.csutf-8D
+;E:\Labs\CrossPlatform\Lab6\IdentityServer\ProfileService.csutf-8=
+4E:\Labs\CrossPlatform\Lab6\IdentityServer\Program.csutf-8=
+4E:\Labs\CrossPlatform\Lab6\IdentityServer\Startup.csutf-8t
+iE:\Labs\CrossPlatform\Lab6\IdentityServer\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8d
+YE:\Labs\CrossPlatform\Lab6\IdentityServer\obj\Debug\net5.0\IdentityServer.AssemblyInfo.csutf-8i
+^E:\Labs\CrossPlatform\Lab6\IdentityServer\obj\Debug\net5.0\IdentityServer.RazorAssemblyInfo.csutf-8

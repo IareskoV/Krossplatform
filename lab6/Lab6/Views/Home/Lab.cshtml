@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Lab" + ViewData["Lab"];
+}
+<div class="text-center">
+    <h1 class="display-4">Lab @ViewData["Lab"]</h1>
+    <label>Description: @ViewData["description"]</label><br />
+    <form method="post">
+        <label>Input:</label><br />
+        <textarea name="input"></textarea><br />
+        <input type="submit" value="Send" /><br />
+    </form>
+    <label>Output:</label><br />
+    <textarea name="output">@ViewData["output"]</textarea><br />
+</div>

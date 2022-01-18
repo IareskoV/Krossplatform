@@ -1,0 +1,29 @@
+﻿@using Lab6.Entities
+
+@{
+    ViewData["Title"] = "Locations";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Location
+
+<div class="text-center">
+    <h1 class="display-4">Locations</h1>
+    <form asp-controller="Database" asp-action="CreateLocation" method="post">
+        <input type="hidden" asp-for="Location_ID" value="" /> Location Details <input asp-for="Location_Details" value="" /> 
+        <button type="submit">Create</button>
+    </form>
+    @foreach (Location asset in ViewBag.Entities)
+    {
+
+        <form asp-controller="Database" asp-action="UpdateLocation" method="post">
+            @asset.Location_ID <input type="hidden" asp-for="Location_ID" value="@asset.Location_ID" /> <input asp-for="Location_Details" value="@asset.Location_Details" /> 
+            <button type="submit">Update</button>
+        </form>
+        <form asp-controller="Database" asp-action="DeleteLocation" method="post">
+            <input type="hidden" value="@asset.Location_ID" asp-for="Location_ID" />
+            <input type="hidden" value="@asset.Location_Details" asp-for="Location_Details" />
+            <button type="submit">Delete</button>
+        </form>
+    }
+</div>
+

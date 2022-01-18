@@ -1,0 +1,14 @@
+c
+XE:\Labs\CrossPlatform\Lab6\Lab6\obj\Debug\net5.0\Razor\Views\Database\Assets.cshtml.g.csutf-8r
+gE:\Labs\CrossPlatform\Lab6\Lab6\obj\Debug\net5.0\Razor\Views\Database\AssetsLifeCycleEvents.cshtml.g.csutf-8f
+[E:\Labs\CrossPlatform\Lab6\Lab6\obj\Debug\net5.0\Razor\Views\Database\Locations.cshtml.g.csutf-8h
+]E:\Labs\CrossPlatform\Lab6\Lab6\obj\Debug\net5.0\Razor\Views\Database\RefStatuses.cshtml.g.csutf-8^
+SE:\Labs\CrossPlatform\Lab6\Lab6\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.csutf-8\
+QE:\Labs\CrossPlatform\Lab6\Lab6\obj\Debug\net5.0\Razor\Views\Home\Lab.cshtml.g.csutf-8a
+VE:\Labs\CrossPlatform\Lab6\Lab6\obj\Debug\net5.0\Razor\Views\Home\UserPage.cshtml.g.csutf-8`
+UE:\Labs\CrossPlatform\Lab6\Lab6\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.csutf-8b
+WE:\Labs\CrossPlatform\Lab6\Lab6\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.csutf-8t
+iE:\Labs\CrossPlatform\Lab6\Lab6\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.csutf-8`
+UE:\Labs\CrossPlatform\Lab6\Lab6\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.csutf-8^
+SE:\Labs\CrossPlatform\Lab6\Lab6\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.csutf-8[
+PE:\Labs\CrossPlatform\Lab6\Lab6\obj\Debug\net5.0\Lab6.RazorTargetAssemblyInfo.csutf-8
